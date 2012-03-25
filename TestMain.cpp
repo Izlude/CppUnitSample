@@ -13,7 +13,6 @@ int main(int argc, char **argv) {
   TestResultCollector result;
   controller.addListener(&result);
 
-  /* 進行状況を「.」で表示する */
   BriefTestProgressListener progress;
   controller.addListener(&progress);
 
